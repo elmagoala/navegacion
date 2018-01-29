@@ -17,10 +17,17 @@ export class Pagina3Page {
 
   categoria:any = {};
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(private navCtrl: NavController, private navParams: NavParams) {
     this.categoria = this.navParams.get("categoria");
   }
 
+  irAtras() {
+    this.navCtrl.pop();
+  }
+
+  irRoot() {
+    this.navCtrl.popToRoot();
+  }
 
 
 }
