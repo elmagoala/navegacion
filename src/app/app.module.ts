@@ -7,12 +7,12 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 
 import { PrincipalPage,
-        AjustesPage,
-        Ajustes2Page,
-        ModalPage,
-        Pagina2Page,
-        Pagina3Page,
-        TabsPage } from '../pages/index.paginas';
+         AjustesPage,
+         Ajustes2Page,
+         ModalPage,
+         Pagina2Page,
+         Pagina3Page,
+         TabsPage } from '../pages/index.paginas';
 
 @NgModule({
   declarations: [

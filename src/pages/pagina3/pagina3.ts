@@ -15,11 +15,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class Pagina3Page {
 
+  categoria:any = {};
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.categoria = this.navParams.get("categoria");
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad Pagina3Page');
-  }
+
 
 }

@@ -1,6 +1,6 @@
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>Principal - Root</ion-title>
   </ion-navbar>
 
@@ -8,5 +8,12 @@
 
 
 <ion-content padding>
-  <h1>Root</h1>
+  <button ion-button color="primary" block
+          (click)="navegarPagina()">
+    Ir a Página 2
+  </button>
+  <button ion-button color="secondary" block
+          [navPush]="pagina2">
+    Ir a Página 2 - HTML
+  </button>
 </ion-content>
